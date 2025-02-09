@@ -1,6 +1,4 @@
-import pygame
-
-from values import screen, white, gray, width, Game
+from values import white, gray, width, Game
 from functions import drawText
 from Button import Button
 from Engine import Engine

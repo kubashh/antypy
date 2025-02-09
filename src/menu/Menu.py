@@ -1,4 +1,4 @@
-from values import black, white, red, green8, red8, width, config, Game
+from values import black, white, red, green8, width, config, Game
 from functions import randUnusedColor, drawBox, drawText
 from Button import Button
 from Engine import Engine

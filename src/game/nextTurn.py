@@ -1,5 +1,3 @@
-from random import shuffle
-
 from values import gray, Game
 from functions import chance, fromArr, fromColor
 
@@ -21,7 +19,6 @@ def prot(t):
 def move(p):
   for t in fromColor(p.color, True):
     if 10 < t.v <= 16:
-      tmp = []
       for t2 in fromArr(t.n, True):
         if t2.color == gray or (t2.color == p.color and t2.v == 0 and t2.fl < t.fl) or (t2.color != p.color and prot(t2) < t.v - 10 and chance(p.aggressiveness)):
           t2.moved = True

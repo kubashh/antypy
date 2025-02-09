@@ -1,5 +1,5 @@
 from math import sqrt
-from random import randint, choice
+from random import choice
 
 from values import gray, config, Game
 from functions import chance, fromColor

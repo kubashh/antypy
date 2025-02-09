@@ -3,6 +3,7 @@ from functions import randUnusedColor
 
 
 class Player:
+  __slots__ = "color", "tiles", "cash", "aggressiveness", "eco"
   def __init__(self):
     self.color = randUnusedColor()
     self.tiles = []
