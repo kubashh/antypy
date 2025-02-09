@@ -1,2 +1,2 @@
 clear
-python3 main.py
+/home/jakub/git/antypy/.venv/bin/python /home/jakub/git/antypy/main.py
